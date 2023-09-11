@@ -1,0 +1,60 @@
+/* header {
+    border: 1px solid sandybrown;
+    display: flex;
+    align-items: center;
+} */
+
+body {
+    background-image: url('../images/galaxy.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: wheat;
+}
+
+header div {
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#nav {
+    display: flex;
+    gap: 20px;
+    padding-right: 20px;
+    align-items: center;
+}
+
+.btn {
+    background-color: transparent;
+    padding: 10px;
+    width: 130px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    transition: all 1s;
+}
+
+.btn:hover{
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+    cursor: pointer;
+    color: white;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+h1 {
+    margin: 0;
+    font-size: 150px;
+}
